@@ -6,6 +6,7 @@
 
 #include "adv360pro_keypos.h"
 #include "zmk_helper.h"
+#include "homerow_mods.h"
 
 / {
     behaviors {
