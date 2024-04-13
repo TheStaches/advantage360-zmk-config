@@ -11,11 +11,7 @@
 /* Macros and shortcuts */
 #include "custom_behaviors.h"
 
-/ {
-    chosen {
-        zmk,matrix_transform = &urobs_transform;
-    };
-    
+/ { 
     behaviors {
       #include "macros.dtsi"
       #include "version.dtsi"
